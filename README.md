@@ -1,8 +1,8 @@
-# 🏔️ Mountain Passes REST API
+# Mountain Passes REST API
 
 A Django REST Framework API for managing tourist mountain pass information with user submissions, coordinates tracking, and image uploads.
 
-## 🌟 Key Features
+## Key Features
 - **User submissions** with email/phone validation
 - **Moderation workflow** (new/pending/accepted/rejected)
 - **Geolocation tracking** with precise coordinates
@@ -10,14 +10,14 @@ A Django REST Framework API for managing tourist mountain pass information with 
 - **Image uploads** with titles
 - **Search functionality** by user email or pass ID
 
-## 🛠️ Technologies
+## Technologies
 - Python 3.10+
 - Django 4.2+
 - Django REST Framework
 - PostgreSQL (production) / SQLite (development)
 - Pillow (image processing)
 
-## 📌 Core Models
+## Core Models
 | Model | Description |
 |-------|-------------|
 | `User` | Submitter information with email validation |
@@ -28,7 +28,7 @@ A Django REST Framework API for managing tourist mountain pass information with 
 | `ActivityType` | Allowed activities (hiking, climbing, etc.) |
 | `Area` | Geographical regions hierarchy |
 
-## 🚀 API Endpoints
+## API Endpoints
 
 ### 1. Submit New Mountain Pass
 `POST /api/submitData/`
